@@ -1,6 +1,7 @@
 html {
   font-size: 10px;
 }
+
 body {
   background:grey url('./img/c1zn57gfdb0-jonathan-velasquez.jpg');
   background-size: cover;
@@ -9,6 +10,7 @@ body {
   font-weight: 200;
   font-size: 20px;
 }
+
 .words {
   max-width:500px;
   margin:50px auto;
@@ -21,9 +23,11 @@ body {
   position: relative;
   line-height:3rem;
 }
+
 p {
   margin: 0 0 3rem 0;
 }
+
 .words:before {
   content: '';
   position: absolute;
