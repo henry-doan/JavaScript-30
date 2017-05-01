@@ -67,3 +67,28 @@ kbd {
   letter-spacing: 1px;
   color:#ffc600;
 }
+
+.watermark {
+ position: fixed;
+ bottom: 5px;
+ right: 45px;
+ opacity: 0.5;
+ z-index: 99;
+ color: white;
+ font-size: 25px;
+ font-family: "Lucida Sans Unicode";
+}
+
+.watermark a:link {
+  color: white;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline !important;
+}

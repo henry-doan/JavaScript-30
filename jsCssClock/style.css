@@ -52,3 +52,27 @@ body {
   width: 30%;
   left: 20%;
 }
+
+.watermark {
+ position: fixed;
+ bottom: 5px;
+ right: 45px;
+ opacity: 0.5;
+ z-index: 99;
+ color: white;
+ font-family: "Lucida Sans Unicode";
+}
+
+.watermark a:link {
+  color: white;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline !important;
+}
